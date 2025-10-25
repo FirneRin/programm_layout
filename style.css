@@ -661,3 +661,81 @@ h3, h4 {
 #myTab {
     justify-content: center;
 }
+
+.tab-pane {
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.nav-link.active {
+    background-color: #D946EF !important;
+    border: none;
+}
+
+
+        .accordion-button {
+            font-weight: 600;
+            color: #0d6efd;
+            background-color: #f8f9fa;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        .accordion-button:hover {
+            color: #0b5ed7;
+            background-color: #e9ecef;
+        }
+        
+        .accordion-item {
+            border: none;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .accordion-header {
+            border-bottom: none;
+        }
+        
+        .accordion-body {
+            padding: 20px;
+            background-color: #fff;
+            border-top: 1px solid #dee2e6;
+        }
+        
+        .checkmark {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            position: relative;
+        }
+        
+        .checkmark::after {
+            content: '✓';
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 14px;
+            color: #6c757d;
+        }
+        
+        .feature-item {
+            margin-bottom: 15px;
+            padding-left: 5px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        
+        .feature-item:last-child {
+            margin-bottom: 0;
+        }
